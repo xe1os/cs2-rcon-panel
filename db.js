@@ -20,8 +20,8 @@ better_sqlite_client.exec(`
   )
 `);
 
-const default_username = 'cspanel';
-const default_password = 'v67ic55x4ghvjfj';
+const default_username = 'admin';
+const default_password = 'Zayan@2023';
 // Hash the default password
 const hashed_password = bcrypt.hashSync(default_password, 10);
 
